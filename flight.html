@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/flight.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <style>
+        #top{
+            margin-top:140px ;
+        }
+    </style>
+    <title>Flight</title>
+  </head>
+  <body>
+
+    <header class="header" data-header>
+        <div class="container">
+            <a href="index.html" class="logo">
+                 <h3>Global Getaways</h3>
+            </a>
+            <nav class="navbar" data-navbar>
+                <div class="navbar-top">
+                    <a href="index.html" class="logo">
+                        <h3>Global Getaways</h3>
+                    </a>
+                    <button class="nav-toggle-btn" aria-label="close menu" data-nav-toggler>
+                        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                </div>
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                        <a href="index.html" class="navbar-link active">Home</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="flight.html" class="navbar-link">Flights</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="custom.html" class="navbar-link">Custom</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="hotels.html" class="navbar-link">Hotels</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="contact.html" class="navbar-link">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="header-action">
+                    <a href="#" class="login-btn">Login</a>
+                    <a href="#" class="btn btn-primary">Sign Up</a>
+                </div>
+            </nav>
+            <button class="nav-toggle-btn" aria-label="open menu" data-nav-toggler>
+                <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+            </button>
+            <div class="overlay " data-overlay data-nav-toggler></div>
+        </div>
+    </header>
+
+    <section class="section__container booking__container" id="top">
+      <div class="booking__nav">
+        <span>Economy Class</span>
+        <span>Business Class</span>
+        <span>First Class</span>
+      </div>
+      <form>
+        <div class="form__group">
+          <span><i class="ri-map-pin-line"></i></span>
+          <div class="input__content">
+            <div class="input__group">
+              <input type="text" />
+              <label>Location</label>
+            </div>
+            <p>Where are you goung?</p>
+          </div>
+        </div>
+        <div class="form__group">
+          <span><i class="ri-user-3-line"></i></span>
+          <div class="input__content">
+            <div class="input__group">
+              <input type="number" />
+              <label>Travellers</label>
+            </div>
+            <p>Add guests</p>
+          </div>
+        </div>
+        <div class="form__group">
+          <span><i class="ri-calendar-line"></i></span>
+          <div class="input__content">
+            <div class="input__group">
+              <input type="text" />
+              <label>Departure</label>
+            </div>
+            <p>Add date</p>
+          </div>
+        </div>
+        <div class="form__group">
+          <span><i class="ri-calendar-line"></i></span>
+          <div class="input__content">
+            <div class="input__group">
+              <input type="text" />
+              <label>Return</label>
+            </div>
+            <p>Add date</p>
+          </div>
+        </div>
+        <button class="btn"><i class="ri-search-line"></i></button>
+      </form>
+    </section>
+
+    <section class="section__container plan__container">
+      <p class="subheader">TRAVEL SUPPORT</p>
+      <h2 class="section__header">Plan your travel with confidence</h2>
+      <p class="description">
+        Find help with your bookings and travel plans, and seee what to expect
+        along your journey.
+      </p>
+      <div class="plan__grid">
+        <div class="plan__content">
+          <span class="number">01</span>
+          <h4>Travel Requirements for Dubai</h4>
+          <p>
+            Stay informed and prepared for your trip to Dubai with essential
+            travel requirements, ensuring a smooth and hassle-free experience in
+            this vibrant and captivating city.
+          </p>
+          <span class="number">02</span>
+          <h4>Multi-risk travel insurance</h4>
+          <p>
+            Comprehensive protection for your peace of mind, covering a range of
+            potential travel risks and unexpected situations.
+          </p>
+          <span class="number">03</span>
+          <h4>Travel Requirements by destinations</h4>
+          <p>
+            Stay informed and plan your trip with ease, as we provide up-to-date
+            information on travel requirements specific to your desired
+            destinations.
+          </p>
+        </div>
+        <div class="plan__image">
+          <img src="./assets/images/plan-1.jpg" alt="plan" />
+          <img src="./assets/images/plan-2.jpg" alt="plan" />
+          <img src="./assets/images/plan-3.jpg" alt="plan" />
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section__container travellers__container">
+      <h2 class="section__header">Best travellers of the month</h2>
+      <div class="travellers__grid">
+        <div class="travellers__card">
+          <img src="./assets/images/traveller-1.jpg" alt="traveller" />
+          <div class="travellers__card__content">
+            <img src="./assets/images/client-1.jpg" alt="client" />
+            <h4>Emily Johnson</h4>
+            <p>Dubai</p>
+          </div>
+        </div>
+        <div class="travellers__card">
+          <img src="./assets/images/traveller-2.jpg" alt="traveller" />
+          <div class="travellers__card__content">
+            <img src="./assets/images/client-2.jpg" alt="client" />
+            <h4>David Smith</h4>
+            <p>Paris</p>
+          </div>
+        </div>
+        <div class="travellers__card">
+          <img src="./assets/images/traveller-3.jpg" alt="traveller" />
+          <div class="travellers__card__content">
+            <img src="./assets/images/client-3.jpg" alt="client" />
+            <h4>Olivia Brown</h4>
+            <p>Singapore</p>
+          </div>
+        </div>
+        <div class="travellers__card">
+          <img src="./assets/images/traveller-4.jpg" alt="traveller" />
+          <div class="travellers__card__content">
+            <img src="./assets/images/client-4.jpg" alt="client" />
+            <h4>Daniel Taylor</h4>
+            <p>Malaysia</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+    
+    
+                <ul class="footer-list">
+                    <li>
+                        <p class="footer-list-title">About</p>
+                    </li>
+    
+                    <li>
+                        <a href="#" class="footer-link">About Us</a>
+                    </li>
+    
+                    <li>
+                        <a href="#" class="footer-link">Features</a>
+                    </li>
+    
+                    <li>
+                        <a href="#" class="footer-link">News</a>
+                    </li>
+    
+                    <li>
+                        <a href="#" class="footer-link">Menu</a>
+                    </li>
+                </ul>
+    
+                <ul class="footer-list">
+                    <li>
+                        <p class="footer-list-title">Company</p>
+                    </li>
+    
+                    <li>
+                        <a href="#" class="footer-link">Why Company</a>
+                    </li>
+    
+                    <li>
+                        <a href="#" class="footer-link">Partner With Us</a>
+                    </li>
+    
+                    <li>
+                        <a href="#" class="footer-link">FAQ</a>
+                    </li>
+    
+                    <li>
+                        <a href="#" class="footer-link">Blog</a>
+                    </li>
+                </ul>
+    
+                <ul class="footer-list">
+                    <li>
+                        <p class="footer-list-title">Support</p>
+                    </li>
+    
+                    <li>
+                        <a href="#" class="footer-link">Account</a>
+                    </li>
+    
+                    <li>
+                        <a href="#" class="footer-link">Support Center</a>
+                    </li>
+    
+                    <li>
+                        <a href="#" class="footer-link">Feedback</a>
+                    </li>
+    
+                    <li>
+                        <a href="#" class="footer-link">Accessibility</a>
+                    </li>
+                </ul>
+            </div>
+    
+            <p class="copyright">
+              copyright 2024 Made by Gateway
+          </p>
+        </div>
+    </footer>   
+    <script src="./assets/js/script.js">
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+    
+  </body>
+</html>
